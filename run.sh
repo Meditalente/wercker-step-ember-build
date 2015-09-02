@@ -9,7 +9,8 @@ else
   EMBER="ember"
 fi
 
-$EMBER -v
+info "ember-cli version:"
+info `$EMBER -v`
 
 RESULT=`$EMBER build --environment $WERCKER_EMBER_BUILD_ENVIRONMENT`
 
