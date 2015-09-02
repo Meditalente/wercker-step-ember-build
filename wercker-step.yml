@@ -1,0 +1,12 @@
+name: ember-build
+version: 0.1.0
+description: Build Ember-CLI applications
+keywords:
+  - ember
+  - ember-cli
+properties:
+  environment:
+    type: string
+    required: false
+    default: production
+
