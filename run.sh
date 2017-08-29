@@ -18,10 +18,9 @@ else
   EMBER=$(which ember)
 fi
 
-info "ember-cli version: $($EMBER -v)"
+info "$($EMBER -v)"
 
 if $EMBER build --environment "$WERCKER_EMBER_BUILD_ENVIRONMENT"; then
-  warning "$RESULT"
   fail "Failed building"
 else
   success "Built successfully"

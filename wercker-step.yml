@@ -1,5 +1,5 @@
 name: ember-build
-version: 0.2.0
+version: 0.2.1
 description: Build Ember-CLI applications
 keywords:
   - ember
@@ -10,6 +10,6 @@ properties:
     required: false
     default: production
   use-cache:
-    type: boolean
+    type: bool
     required: false
     default: true

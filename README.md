@@ -11,6 +11,10 @@ As part of the build or deploy process of an Ember Application, it has to be bui
 
 ## Changelog
 
+### 0.2.1 [2017-08-29]
+
++ Code fixes
+
 ### 0.2.0 [2017-08-29]
 
 + Added `use-cache` option.
