@@ -21,7 +21,7 @@ fi
 info "$($EMBER -v)"
 
 if $EMBER build --environment "$WERCKER_EMBER_BUILD_ENVIRONMENT"; then
-  fail "Failed building"
-else
   success "Built successfully"
+else
+  fail "Failed building"
 fi
